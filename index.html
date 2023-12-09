@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond Temptation </title>
+    <link rel="stylesheet" href="style.css">
+</head>   
+<body>
+    <section>
+        <div class="circle"></div>
+        <header> 
+            <a href="#"><img src="Logo.jpeg" class="logo"></a>
+             <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#"> What's New!</a></li>
+                <li><a href="#"> Contact</a></li>
+             </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>It's not just a cafe<br>It's <span>Beyond Temptation</span></h2>
+                <p>Welcome to Beyond Temptation, the cherished local start-up that has blossomed into a sensation among coffee aficionados. Nestled in the heart of Anjangaon Surji, our café has earned widespread popularity for its exceptional coffee experience. From sourcing ethically grown coffee beans to the artistry of our skilled baristas, every cup is a labor of love. But Beyond Temptation is not just about coffee; it's an all-encompassing journey of flavors and aromas.</p>
+                <p > Our carefully curated menu features delectable treats, delightful pastries, and a cozy ambiance, making it the perfect spot for friends, professionals, and students alike. Join us in this enchanting coffee haven, where temptation is just the beginning of an unforgettable experience.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox"> 
+                <img src="Chocalate glass.png" class="Beyond Temptation">
+            </div>
+        </div>
+              <ul class="thumb">
+                <li><img src="Voyage jug.jpeg" onclick="imgSlider('Voyage jug.jpeg')"></li>
+                <li><img src="Strawberry jug.jpeg"onclick="imgSlider('Strawberry jug.jpeg')" ></li>
+                <li><img src="Glass image.jpeg" onclick="imgSlider('Glass image.jpeg')"></li>
+              </ul>
+              <ul class="sci">
+                <li><a href="#"><img src="Facebook.png"  width="20px" ,sizes="5%" ></a></li>
+                <li><a href="#"><img src="Instagram.png"  width="20px" ,sizes="5%"></a></li>
+                <li><a href="#"><img src="Twitter.png"  width="20px" ,sizes="5%"></a></li>
+                <li><a href="#"><img src="Whatsapp.png" width="20px" ,sizes="5%"></a></li>
+              </ul>                                     
+    </section> 
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.Beyond Temptation').src = anything;
+        }
+    </script>
+</body>
+</html>
