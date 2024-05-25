@@ -1,7 +1,5 @@
 # Beyond-Temaption
 
-# Beyond Temptation Food Place Web Page
-
 ## Overview
 
 **Beyond Temptation** is a modern and visually appealing simple web page for a food place, designed to showcase the menu, services, and contact information. The project is built using HTML and CSS to provide an engaging user experience.
